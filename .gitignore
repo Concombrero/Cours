@@ -1,0 +1,19 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*~
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+
+# Fichiers compilés LaTeX (si vous utilisez LaTeX)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
