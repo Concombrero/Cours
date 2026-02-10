@@ -61,6 +61,55 @@ git commit -m "Add nom-du-fork submodule"
 git push
 ```
 
+## Synchroniser un fork avec le repo original (upstream)
+
+Quand le prof met à jour le repo original, voici comment récupérer ses modifications :
+
+```bash
+# 1. Aller dans le dossier du submodule (le fork)
+cd nom-du-fork
+
+# 2. Ajouter le repo original comme "upstream" (une seule fois)
+git remote add upstream https://github.com/PROF/repo-original.git
+
+# 3. Récupérer les modifications du prof
+git fetch upstream
+
+# 4. Fusionner les modifications dans votre branche
+git merge upstream/main
+# ou si la branche principale s'appelle "master" :
+git merge upstream/master
+
+# 5. Pousser les modifications vers votre fork
+git push origin main  # ou master
+
+# 6. Revenir au repo Cours et enregistrer la mise à jour
+cd ..
+git add nom-du-fork
+git commit -m "Update nom-du-fork from upstream"
+git push
+```
+
+### En cas de conflit
+
+Si vous avez modifié les mêmes fichiers que le prof :
+```bash
+# Après le merge, résoudre les conflits dans les fichiers marqués
+# Puis :
+git add .
+git commit -m "Resolve merge conflicts"
+git push
+```
+
+### Vérifier les remotes configurés
+
+```bash
+git remote -v
+# Devrait afficher :
+# origin    https://github.com/Concombrero/nom-du-fork.git (fetch/push)
+# upstream  https://github.com/PROF/repo-original.git (fetch/push)
+```
+
 ## Commandes utiles
 
 | Action | Commande |
