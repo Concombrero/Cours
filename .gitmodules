@@ -4,3 +4,6 @@
 [submodule "Numerical-Optimization"]
 	path = Numerical-Optimization
 	url = https://github.com/Concombrero/Numerical-Optimization.git
+[submodule "Statistical-Learning"]
+	path = Statistical-Learning
+	url = https://github.com/Concombrero/Statistical-Learning.git
