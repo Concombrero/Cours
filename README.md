@@ -7,6 +7,7 @@ Ce dépôt contient l'ensemble de mes cours organisés par matière. Chaque mati
 | Matière | Description | Lien |
 |---------|-------------|------|
 | `variational-methods` | Méthodes variationnelles | [GitHub](https://github.com/Concombrero/variational-methods) |
+| `Numerical-Optimization` | Optimisation numérique | [GitHub](https://github.com/Concombrero/Numerical-Optimization) |
 
 ## Cloner ce repo (avec tous les cours)
 
@@ -45,6 +46,18 @@ cd ..
 rm -rf nom-matiere
 git submodule add https://github.com/Concombrero/nom-matiere.git nom-matiere
 git commit -m "Add nom-matiere submodule"
+git push
+```
+
+## Ajouter un repo existant (fork) comme submodule
+
+```bash
+# 1. Fork le repo sur GitHub (bouton "Fork" sur le repo original)
+
+# 2. Ajouter le fork comme submodule
+cd /chemin/vers/Cours
+git submodule add https://github.com/Concombrero/nom-du-fork.git nom-du-fork
+git commit -m "Add nom-du-fork submodule"
 git push
 ```
 

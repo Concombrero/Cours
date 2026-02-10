@@ -1,3 +1,6 @@
 [submodule "variational-methods"]
 	path = variational-methods
 	url = https://github.com/Concombrero/variational-methods.git
+[submodule "Numerical-Optimization"]
+	path = Numerical-Optimization
+	url = https://github.com/Concombrero/Numerical-Optimization.git
