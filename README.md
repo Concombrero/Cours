@@ -4,10 +4,11 @@ Ce dépôt contient l'ensemble de mes cours organisés par matière. Chaque mati
 
 ## Matières
 
-| Matière | Description | Lien |
-|---------|-------------|------|
-| `variational-methods` | Méthodes variationnelles | [GitHub](https://github.com/Concombrero/variational-methods) |
-| `Numerical-Optimization` | Optimisation numérique | [GitHub](https://github.com/Concombrero/Numerical-Optimization) |
+| Matière |  Lien |
+|---------|------|
+| `variational-methods` | [GitHub](https://github.com/Concombrero/variational-methods) |
+| `Numerical-Optimization` | [GitHub](https://github.com/Concombrero/Numerical-Optimization) |
+| `Statistical-Learning` | [GitHub](https://github.com/Concombrero/Statistical-Learning) |
 
 ## Cloner ce repo (avec tous les cours)
 
