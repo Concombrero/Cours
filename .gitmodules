@@ -1,0 +1,3 @@
+[submodule "variational-methods"]
+	path = variational-methods
+	url = https://github.com/Concombrero/variational-methods.git
