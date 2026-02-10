@@ -1,27 +1,14 @@
-# 📚 Mes Cours
+# Mes Cours
 
 Ce dépôt contient l'ensemble de mes cours organisés par matière. Chaque matière est un repo Git indépendant (submodule) permettant de synchroniser facilement entre différentes machines.
 
-## 📁 Structure
-
-```
-Cours/
-├── .gitmodules
-├── README.md
-└── variational-methods/    ← Submodule
-    ├── notes/
-    ├── exercises/
-    ├── exams/
-    └── resources/
-```
-
-## 📖 Matières
+## Matières
 
 | Matière | Description | Lien |
 |---------|-------------|------|
 | `variational-methods` | Méthodes variationnelles | [GitHub](https://github.com/Concombrero/variational-methods) |
 
-## 🚀 Cloner ce repo (avec tous les cours)
+## Cloner ce repo (avec tous les cours)
 
 ```bash
 git clone --recurse-submodules https://github.com/Concombrero/Cours.git
@@ -32,13 +19,13 @@ Si vous avez déjà cloné sans les submodules :
 git submodule update --init --recursive
 ```
 
-## 🔄 Mettre à jour tous les cours
+## Mettre à jour tous les cours
 
 ```bash
 git submodule update --remote --merge
 ```
 
-## 📝 Ajouter une nouvelle matière
+## Ajouter une nouvelle matière
 
 ```bash
 # 1. Créer le repo sur GitHub (github.com/new)
@@ -61,7 +48,7 @@ git commit -m "Add nom-matiere submodule"
 git push
 ```
 
-## 💡 Commandes utiles
+## Commandes utiles
 
 | Action | Commande |
 |--------|----------|
